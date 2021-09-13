@@ -10,7 +10,7 @@ const ImgContainer = document.querySelector('.ImgContainer');
 containertargetbutton.addEventListener('click', containerOpenClose);
 todoList.addEventListener('click', deleteCheck)
 todoButton.addEventListener('click', addTodo);
-// Funtions
+// Functions
 function containerOpenClose(){
     Container.style.display = 'flex';
 }
